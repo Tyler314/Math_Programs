@@ -1,4 +1,4 @@
-from numpy import pi
+nvwqbvhiqrhv[from numpy import pi
 from sys import argv
 sum=0.0
 try:
