@@ -11,12 +11,12 @@ def lookAndSay(N):
     #Handle the cases where the user requests an invalid integer, or just 1 or
     #2 sequences
     if(N<1):
-        print "You must enter an integer that is greater than 0."
+        print("You must enter an integer that is greater than 0.")
     elif(N==1):
-        print m[0][0]
+        print(m[0][0])
     elif(N==2):
-        print m[0][0]
-        print "".join(str(m[1][e]) for e in m[1])
+        print(m[0][0])
+        print("".join(str(m[1][e]) for e in m[1]))
     else:
         l=[]; #initialize this list to hold an entire sequence, that will be added
               #to the collection of sequences m held in the matrix m
@@ -49,11 +49,11 @@ def lookAndSay(N):
             l=[]; #Reset l
         
         #Prints the collection of sequences on consecutive lines
-        print m[0][0]
+        print(m[0][0])
         for i in range(1,len(m)):
             for j in range(len(m[i])):
-                print m[i][j],
-            print ""
+                print(m[i][j], end="")
+            print("")
 
 try:
     n = int(sys.argv[1])
