@@ -1,8 +1,7 @@
 import numpy as np
 from numpy.matrixlib.defmatrix import matrix
 
-print('\n')
-print('What is the size of your Matrix')
+print('\nWhat is the size of your Matrix')
 a=int(input('Enter Dimension 1: '))
 b=int(input('Enter Dimension 2: '))
 # Create empty matrix with user defined inputs
